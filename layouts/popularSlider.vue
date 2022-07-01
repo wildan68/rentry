@@ -1,5 +1,5 @@
 <template>
-<div class="popular w-full lg:h-screen h-auto relative lg:px-[130px] px-[18px] py-[40px]">
+<div class="popular w-full h-auto relative lg:px-[130px] px-[18px] py-[40px]">
     <div class="flex flex-col flex-1">
         <span class="font-[18px] text-green">Popular</span>
         <div class="flex justify-between">

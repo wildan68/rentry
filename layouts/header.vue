@@ -2,7 +2,7 @@
 <div class="header w-full h-auto relative flex items-center">
     <div class="abstrak">
     </div>
-    <div class="header-content flex gap-[50px] h-auto px-[18px] lg:px-[15%] py-[5%] items-center lg:flex-row flex-col-reverse">
+    <div class="header-content flex gap-[50px] h-auto px-[18px] lg:px-[15%] py-[5%] items-center lg:flex-row flex-col-reverse overflow-x-hidden">
         <div class="flex-1 flex justify-center items-center" data-aos="fade-up">
             <div class="lg:w-[470px] w-full lg:h-[622px] h-[510px] border-[20px] rounded-[14px] border-black-200/50 overflow-hidden relative">
                 <img src="/rumah1.png" alt="rumah1" class="object-cover w-full h-full" />
