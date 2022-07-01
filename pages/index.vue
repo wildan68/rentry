@@ -12,6 +12,9 @@
 </template>
 
 <script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import Navbar from '@/layouts/navbar'
 import Header from '@/layouts/header'
 import Popular from '@/layouts/popular'
@@ -31,6 +34,9 @@ export default {
     PopularSlider,
     Faq,
     Footer,
+  },
+  mounted() {
+    AOS.init();
   }
 }
 </script>

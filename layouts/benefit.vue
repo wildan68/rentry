@@ -1,6 +1,6 @@
 <template>
 <div class="popular w-full lg:h-screen h-auto relative lg:px-[130px] px-[18px] py-[40px] bg-black-300 flex lg:flex-row flex-col lg:items-center lg:gap-0 gap-[58px]">
-    <div class="flex-1 flex flex-col">
+    <div class="flex-1 flex flex-col" data-aos="zoom-out-right">
         <span class="font-[18px] text-green">Benefits</span>
         <h2 class="mt-[15px]">Why Choose us</h2>
         <span class="mt-[20px] font-[16px] text-gray-200 whitespace-pre-line">Renty is a trustworthy developer in the real estate

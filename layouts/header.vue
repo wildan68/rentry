@@ -3,7 +3,7 @@
     <div class="abstrak">
     </div>
     <div class="header-content flex gap-[50px] h-auto px-[18px] lg:px-[15%] py-[5%] items-center lg:flex-row flex-col-reverse">
-        <div class="flex-1 flex justify-center items-center">
+        <div class="flex-1 flex justify-center items-center" data-aos="fade-up">
             <div class="lg:w-[470px] w-full lg:h-[622px] h-[510px] border-[20px] rounded-[14px] border-black-200/50 overflow-hidden relative">
                 <img src="/rumah1.png" alt="rumah1" class="object-cover w-full h-full" />
                 <div class="absolute bottom-[20px] left-[20px] right-0">
@@ -131,7 +131,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex-1 flex flex-col justify-center">
+        <div class="flex-1 flex flex-col justify-center" data-aos="fade-down">
             <h1 class="font-bold">Discover The Ideal Property Here</h1>
             <span class="font-[16px] mt-[24px]">
                 As soon as I had found a few properties that suited me, I was able to forget about how difficult it was to find a suitable home.
