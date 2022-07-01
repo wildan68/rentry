@@ -1,7 +1,7 @@
 <template>
 <div class="popular w-full lg:h-screen h-auto relative lg:px-[130px] px-[18px] py-[40px] flex lg:flex-row items-center">
     <div class="bg-popular"></div>
-    <div class="flex flex-col w-full">
+    <div class="flex flex-col w-full overflow-x-hidden">
         <span class="font-[18px] text-green">Popular</span>
         <div class="flex justify-between items-center">
             <h2>Our Popular Residence</h2>
