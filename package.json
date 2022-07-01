@@ -1,0 +1,34 @@
+{
+    "name": "rentry",
+    "version": "1.0.0",
+    "description": "Real Estate Landing Page",
+    "author": "wildan",
+    "private": true,
+    "scripts": {
+        "dev": "cross-env NUXT_HOST=0.0.0.0 NUXT_PORT=3000 nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "precommit": "npm run lint"
+    },
+    "dependencies": {
+        "@splidejs/vue-splide": "^0.6.7",
+        "nuxt": "^2.0.0",
+        "swiper": "^8.2.5",
+        "vue-awesome-swiper": "^3.1.3",
+        "vueperslides": "^2.15.3"
+    },
+    "devDependencies": {
+        "@nuxt/postcss8": "^1.1.3",
+        "autoprefixer": "^10.4.7",
+        "babel-eslint": "^10.0.1",
+        "cross-env": "^7.0.3",
+        "eslint": "^4.19.1",
+        "eslint-friendly-formatter": "^4.0.1",
+        "eslint-loader": "^2.1.1",
+        "eslint-plugin-vue": "^4.0.0",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.4"
+    }
+}
