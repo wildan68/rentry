@@ -30,11 +30,11 @@
         <div class="w-full lg:w-[569px] h-[404px] lg:h-[661px] border-[20px] rounded-tl-[184px] lg:rounded-tl-[284px] rounded-tr-[14px] rounded-br-[14px] rounded-bl-[14px] border-black-200/50 overflow-hidden relative">
             <img src="/rumah6.png" alt="rumah1" class="object-cover w-full h-full" />
             <div class="h-[100px] lg:h-[140px] w-full px-[15px] lg:px-[29px] absolute bottom-[15px] lg:bottom-[33px]">
-                <div class="h-full w-full backdrop-blur-xl rounded-[22px] flex p-[10px] lg:p-[30px] items-center gap-[5px] lg:gap-[20px]">
+                <div class="h-full w-full backdrop-filter rounded-[22px] flex p-[10px] lg:p-[30px] items-center gap-[5px] lg:gap-[20px]">
                     <div class="flex flex-col gap-[5px] lg:gap-[15px]">
                         <span class="text-[14px] lg:text-[34px] font-[400]">70+ Employee</span>
                         <div class="flex gap-[5px] lg:gap-[10px] items-center">
-                            <img src="/svg/star.svg" class="lg:w-auto lg:h-auto w-[12px] h-[14px]"/>
+                            <img src="/svg/star.svg" class="lg:w-auto lg:h-auto w-[12px] h-[14px]" />
                             <span class="text-[12px] lg:text-[20px]">
                                 4.9
                             </span>
@@ -71,12 +71,17 @@ export default {
 </script>
 
 <style scoped>
-.employee-list > div {
+.employee-list>div {
     margin-right: -30px;
 }
 
+.backdrop-filter {
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+
 @media (max-width: 1024px) {
-    .employee-list > div {
+    .employee-list>div {
         margin-right: -20px;
     }
 }
