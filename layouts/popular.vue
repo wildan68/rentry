@@ -11,7 +11,7 @@
             </button>
         </div>
         <div class="content flex lg:flex-row flex-col gap-[30px] z-30 mt-[48px] justify-center w-full">
-            <div class="card-item w-[370px] h-[470px] bg-black-100 rounded-[14px] overflow-hidden">
+            <div class="card-item w-full lg:w-[370px] h-[470px] bg-black-100 rounded-[14px] overflow-hidden">
                 <div class="pict-card overflow-hidden h-[294px]">
                     <img src="/rumah2.png" class="w-full h-full object-cover" />
                 </div>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-item w-[370px] h-[470px] bg-black-100 rounded-[14px] overflow-hidden">
+            <div class="card-item w-full lg:w-[370px] h-[470px] bg-black-100 rounded-[14px] overflow-hidden">
                 <div class="pict-card overflow-hidden h-[294px]">
                     <img src="/rumah3.png" class="w-full h-full object-cover" />
                 </div>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-item w-[370px] h-[470px] bg-black-100 rounded-[14px] overflow-hidden">
+            <div class="card-item w-full lg:w-[370px] h-[470px] bg-black-100 rounded-[14px] overflow-hidden">
                 <div class="pict-card overflow-hidden h-[294px]">
                     <img src="/rumah4.png" class="w-full h-full object-cover" />
                 </div>

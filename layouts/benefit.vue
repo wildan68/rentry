@@ -1,5 +1,5 @@
 <template>
-<div class="popular w-full lg:h-screen h-auto relative lg:px-[130px] px-[18px] py-[40px] bg-black-300 flex lg:flex-row flex-col items-center lg:gap-0 gap-[58px]">
+<div class="popular w-full lg:h-screen h-auto relative lg:px-[130px] px-[18px] py-[40px] bg-black-300 flex lg:flex-row flex-col lg:items-center lg:gap-0 gap-[58px]">
     <div class="flex-1 flex flex-col">
         <span class="font-[18px] text-green">Benefits</span>
         <h2 class="mt-[15px]">Why Choose us</h2>
@@ -30,7 +30,7 @@
         <div class="w-full lg:w-[569px] h-[404px] lg:h-[661px] border-[20px] rounded-tl-[184px] lg:rounded-tl-[284px] rounded-tr-[14px] rounded-br-[14px] rounded-bl-[14px] border-black-200/50 overflow-hidden relative">
             <img src="/rumah6.png" alt="rumah1" class="object-cover w-full h-full" />
             <div class="h-[100px] lg:h-[140px] w-full px-[15px] lg:px-[29px] absolute bottom-[15px] lg:bottom-[33px]">
-                <div class="h-full w-full backdrop-filter rounded-[22px] flex p-[10px] lg:p-[30px] items-center gap-[5px] lg:gap-[20px]">
+                <div class="h-full w-full backdrop-filter rounded-[22px] flex p-[10px] lg:p-[30px] items-center gap-[5px] lg:gap-[20px] justify-around">
                     <div class="flex flex-col gap-[5px] lg:gap-[15px]">
                         <span class="text-[14px] lg:text-[34px] font-[400]">70+ Employee</span>
                         <div class="flex gap-[5px] lg:gap-[10px] items-center">
